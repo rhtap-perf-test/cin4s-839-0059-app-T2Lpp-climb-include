@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-ib2n
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0059-tenant/cin4s-839-0059-app/devfile-sample-ib2n@sha256:0956bb8c9e45c10685e142a246c6a5369909c763d90d060c39cf9a0305f1124b
+        name: my-nodejs
+        resources: {}
+status: {}
